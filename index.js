@@ -1,82 +1,71 @@
-const {
-  arr_at,
-  push_arr,
-  popOut,
-  shifted,
-  unshifted,
-  joined,
-  sliced,
-  spliced,
-  for_Each,
-  mapping,
-  evenNumber,
-  joining,
-  filling,
-  reversed,
-  reducing,
-} = require("./Arrays");
+const { array_Semilargest } = require("./task");
 // at()
-console.log(arr_at([1, 2, 3, 4, 5]));
+// console.log(arr_at([1, 2, 3, 4, 5]));
 
-// push()
-let arr3 = [8, 9, 10];
-let arr1 = ["apple", "mango", "banana", "carrot", "lettuce", "onion"];
-push_arr(arr1);
-console.log(arr1);
+// // push()
+// let arr3 = [8, 9, 10];
+// let arr1 = ["apple", "mango", "banana", "carrot", "lettuce", "onion"];
+// push_arr(arr1);
+// console.log(arr1);
 
-//pop()
+// //pop()
 
-popOut(arr1);
-console.log(arr1);
+// popOut(arr1);
+// console.log(arr1);
 
-// shifted
-let arr2 = [1, 2, 3, 4, 5, 6];
-shifted(arr2);
-console.log(arr2);
+// // shifted
+// let arr2 = [1, 2, 3, 4, 5, 6];
+// shifted(arr2);
+// console.log(arr2);
 
-//unshift()
-unshifted(arr2);
-console.log(arr2);
+// //unshift()
+// unshifted(arr2);
+// console.log(arr2);
 
-// joined()
+// // joined()
 
-let combined = joined(arr2, arr3);
-console.log(combined);
+// let combined = joined(arr2, arr3);
+// console.log(combined);
 
-// slice()
+// // slice()
 
-let slicedValue = sliced(arr2);
-console.log(slicedValue);
-// spliced()
+// let slicedValue = sliced(arr2);
+// console.log(slicedValue);
+// // spliced()
 
-spliced(arr1);
-console.log(arr1);
+// spliced(arr1);
+// console.log(arr1);
 
-// foreach()
-const numbers = [1, 2, 3, 4, 5, 6, 7];
-for_Each(numbers);
+// // foreach()
+// const numbers = [1, 2, 3, 4, 5, 6, 7];
+// for_Each(numbers);
 
-// map()
-let square = mapping(arr2);
-console.log(square);
+// // map()
+// let square = mapping(arr2);
+// console.log(square);
 
-// filter()
-let filtered = evenNumber(arr2);
-console.log(filtered);
-//join()
-let join_arr = joining(arr2);
-console.log(join_arr);
+// // filter()
+// let filtered = evenNumber(arr2);
+// console.log(filtered);
+// //join()
+// let join_arr = joining(arr2);
+// console.log(join_arr);
 
-//fill()
+// //fill()
 
-let filled = filling(arr2);
-console.log(filled);
+// let filled = filling(arr2);
+// console.log(filled);
 
-// reversed()
+// // reversed()
 
-let changedValue = reversed(arr3);
-console.log(changedValue);
+// let changedValue = reversed(arr3);
+// console.log(changedValue);
 
-// reduce()
-let compressedValue = reducing(arr3);
-console.log(compressedValue);
+// // reduce()
+// let compressedValue = reducing(arr3);
+// console.log(compressedValue);
+
+//TASK
+let number = [1, 5, 3, 7, 458, 6, 500];
+array_Semilargest(number);
+console.log(`the second largest number is ${number[1]}`);
