@@ -66,6 +66,6 @@ const { array_Semilargest } = require("./task");
 // console.log(compressedValue);
 
 //TASK
-let number = [1, 5, 3, 7, 458, 6, 500];
+let number = [0, 5, 3, 0, 458, 0, 500, -78];
 array_Semilargest(number);
 console.log(`the second largest number is ${number[1]}`);
